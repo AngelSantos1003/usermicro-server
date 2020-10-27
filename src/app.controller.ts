@@ -20,8 +20,11 @@ export class AppController {
 
   @MessagePattern('Bash')
   async proccessBash(data: any[])  {
-    this.logger.log('Adding '); 
-    return this.mathService.Add(data); 
+    this.logger.log('Adding Bash'); 
+    
+    const dataResult = await this.mathService.Add(data); 
+    // this.service.createdUsers(dataResult);
+    return dataResult;
     // console.log('agregar');
   }
 }

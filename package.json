@@ -23,9 +23,13 @@
     "@nestjs/core": "^6.0.0",
     "@nestjs/microservices": "^6.5.3",
     "@nestjs/platform-express": "^6.0.0",
+    "@nestjs/typeorm": "^7.1.4",
+    "class-validator": "^0.12.2",
+    "mysql": "^2.18.1",
     "reflect-metadata": "^0.1.12",
     "rimraf": "^2.6.2",
-    "rxjs": "^6.3.3"
+    "rxjs": "^6.3.3",
+    "typeorm": "^0.2.28"
   },
   "devDependencies": {
     "@nestjs/testing": "6.1.1",
